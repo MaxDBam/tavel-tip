@@ -2,8 +2,6 @@ import { LocationPreview } from '../component/LocationPreview.js'
 import { mainService } from './services/main-service.js'
 import { mapService } from './services/map-service.js'
 import { weatherService } from './services/weather-service.js'
-// import { weatherService } from './services/weather-service.js'
-
 
 window.addEventListener('load', onInit)
 
