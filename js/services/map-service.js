@@ -1,3 +1,6 @@
+import { weatherService } from "./weather-service.js";
+import { mainService } from "./main-service.js";
+
 var gMarkers = []
 var gMap
 
