@@ -1,6 +1,6 @@
-import { utilService } from "services/util-service.js"
-import { mapService } from "services/map-service.js"
-import { weatherService } from "services/weather-service.js"
+import { utilService } from "./util-service.js"
+import { mapService } from "./map-service.js"
+import { weatherService } from "./weather-service.js"
 
 var gLocations = []
 
