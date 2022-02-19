@@ -10,7 +10,7 @@ function onInit() {
   initMap()
 }
 
-window.initMap = function initMap() {
+window.initMap = () => {
   var defaultLoc
   var searchedLocation
   var marker
