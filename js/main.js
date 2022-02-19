@@ -4,6 +4,7 @@ import { mapService } from "./services/map-service.js"
 import { weatherService } from "./services/weather-service.js"
 
 window.addEventListener('load', onInit)
+google.maps.event.addDomListener(window, 'load', initMap)
 
 function onInit() {
   bindingEvents()
