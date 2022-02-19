@@ -138,7 +138,7 @@ function onSearchLocation() {
   let searchedLocationQuery = elLocationToSearch.value
   // const searchQuery = searchedLocationQuery
   mainService.getAllPrms(mapService.getLocationLatNLng(searchedLocationQuery))
-    .then(initMap())
+    .then(initMap)
     .catch(error => console.log(error))
   console.log(mainService.getLocations())
   elLocationToSearch.value = ''
