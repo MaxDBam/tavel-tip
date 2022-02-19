@@ -164,9 +164,9 @@ function onCopyLocationToClipboard() {
   }
 })
 
-  const qMarkIdx = window.location.href.indexOf('ml')
+  const qMarkIdx = window.location.href.indexOf('ip/')
   console.log(qMarkIdx);
-  navigator.clipboard.writeText(window.location.href.slice(0, qMarkIdx + 2) + '?lat=' + mainService.getLocations()[mainService.getLocations().length - 1].lat + '&lng=' + mainService.getLocations()[mainService.getLocations().length - 1].lng)
+  navigator.clipboard.writeText(window.location.href.slice(0, qMarkIdx + 3) + '?lat=' + mainService.getLocations()[mainService.getLocations().length - 1].lat + '&lng=' + mainService.getLocations()[mainService.getLocations().length - 1].lng)
 }
 
 function onFindMyLocation(event) {
