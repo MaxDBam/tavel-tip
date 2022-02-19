@@ -9,7 +9,7 @@ function onInit() {
   bindingEvents()
 }
 
-function initMap() => {
+function initMap() {
   var defaultLoc
   var searchedLocation
   var marker
