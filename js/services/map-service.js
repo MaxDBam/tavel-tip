@@ -8,7 +8,7 @@ var gMap
 var gSearchingLocation = false
 var gSearchingMyLocation = false
 
-const API_KEY = 'AIzaSyCyNkWu_YTdG3oFfbSkLa4euUbPhIR7LL4'
+const API_KEY = 'AIzaSyBwvY_QDIAc05qe6aYgXa2gVOYk0nPR6Qw'
 
 function getMap() {
     return gMap
