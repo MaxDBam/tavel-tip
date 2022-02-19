@@ -9,7 +9,7 @@ function onInit() {
   bindingEvents()
 }
 
-window.initMap = function() {
+function initMap() {
   var defaultLoc
   var searchedLocation
   var marker
@@ -297,4 +297,4 @@ export  {
   getParameterByName
 }
 
-// google.maps.event.addDomListener(window, 'load', initMap)
+google.maps.event.addDomListener(window, 'load', initMap)
