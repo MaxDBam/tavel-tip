@@ -1,3 +1,3 @@
 import * as mapMain from "./main.js"
 
-window.initMap = mapMain.initMap
+window.initMap = mapMain.initMap()
