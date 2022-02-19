@@ -1,7 +1,6 @@
-import { utilService } from "./util-service.js";
-import { weatherService } from "./weather-service.js";
-import { mainService } from "./main-service.js";
-// import * as axios from '../lib/axios.js'
+import { utilService } from "services/util-service.js";
+import { weatherService } from "services/weather-service.js";
+import { mainService } from "services/main-service.js";
 
 var gMarkers = []
 var gMap
