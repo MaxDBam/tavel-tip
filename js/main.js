@@ -1,7 +1,7 @@
 import { LocationPreview } from "../component/LocationPreview.js"
-import { mainService } from "js/services/main-service.js"
-import { mapService } from "js/services/map-service.js"
-import { weatherService } from "js/services/weather-service.js"
+import { mainService } from "/js/services/main-service.js"
+import { mapService } from "/js/services/map-service.js"
+import { weatherService } from "/js/services/weather-service.js"
 
 window.addEventListener('load', onInit)
 
