@@ -9,7 +9,7 @@ function onInit() {
   bindingEvents()
 }
 
-window.initMap = () => {
+function initMap() => {
   var defaultLoc
   var searchedLocation
   var marker
@@ -275,4 +275,25 @@ function getParameterByName(name, url = window.location.href) {
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+export  {
+  onInit,
+  initMap,
+  locationOnMap,
+  onMapClick,
+  markerOnMap,
+  showMarkers,
+  bindingEvents,
+  onSearchLocation,
+  onCopyLocationToClipboard,
+  onFindMyLocation,
+  onGetSearchedLocation,
+  renderLocations,
+  onUpdateLocation,
+  onDeleteLocation,
+  onRemoveMarker,
+  onShowModal,
+  onCloseModal,
+  getParameterByName
 }
