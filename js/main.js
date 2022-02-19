@@ -279,7 +279,6 @@ function getParameterByName(name, url = window.location.href) {
 
 export  {
   onInit,
-  initMap,
   locationOnMap,
   onMapClick,
   markerOnMap,
