@@ -10,18 +10,6 @@ var gSearchingMyLocation = false
 
 const API_KEY = 'AIzaSyCyNkWu_YTdG3oFfbSkLa4euUbPhIR7LL4'
 
-export const mapService = {
-    getMap,
-    getDefaultLocation,
-    getLocationLatNLng,
-    getLocationByLatNLng,
-    isSearchingLocation,
-    isSearchingMyLocation,
-    searchingForMyLocation,
-    getMarkers,
-    removeMarker
-}
-
 function getMap() {
     return gMap
 }
@@ -86,4 +74,16 @@ function getMarkers() {
 
 function removeMarker(markerIdx) {
     gMarkers.splice(markerIdx, 1)
+}
+
+export const mapService = {
+    getMap,
+    getDefaultLocation,
+    getLocationLatNLng,
+    getLocationByLatNLng,
+    isSearchingLocation,
+    isSearchingMyLocation,
+    searchingForMyLocation,
+    getMarkers,
+    removeMarker
 }
