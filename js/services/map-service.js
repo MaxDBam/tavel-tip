@@ -29,6 +29,7 @@ function getLocationLatNLng(searchQuery) {
     console.log(searchQuery);
     return axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${searchQuery}&key=${API_KEY}`)
         .then(res => {
+            console.log(res.data)
             console.log(res.data.results[0])
             const location = {
                 location: res.data.results[0].formatted_address,
@@ -45,6 +46,7 @@ function getLocationByLatNLng(lat, lng) {
 
     return axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${API_KEY}`)
         .then(res => {
+            console.log(res.data)
             console.log(res.data.results[0])
             const location = {
                 location: res.data.results[0].formatted_address,
