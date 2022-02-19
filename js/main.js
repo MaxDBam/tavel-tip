@@ -7,7 +7,6 @@ window.addEventListener('load', onInit)
 
 function onInit() {
   bindingEvents()
-  initMap()
 }
 
 window.initMap = () => {
